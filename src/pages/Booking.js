@@ -6,8 +6,8 @@ const Booking = () => {
     return (
         <div>
             <Navigation />
-            <div className="booking">
-                <h1 className="Title">Mes réservations</h1>
+            <div className="booking container mx-auto">
+                <h1 className="Title1">Mes réservations</h1>
                 <SearchList />
             </div>
         </div>

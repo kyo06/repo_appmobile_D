@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
@@ -13,26 +12,25 @@ const Navigation = () => {
 
             <div className="navigation">
                 <ul className="">
-                    <li>
+                    <li className="NavLink">
                         <NavLink exact to="/" activeClassName="nav-active">
                             <i className="fas fa-home"></i>
                             <span>Accueil</span>
                         </NavLink>
                     </li>
-                    <li>
+                    <li className="NavLink">
                         <NavLink exact to="booking" activeClassName="nav-active">
                             <i className="fas fa-plane"></i>
                             <span> Réservations </span>
                         </NavLink>
                     </li>
-                    <li>
+                    <li className="NavLink">
                         <NavLink exact to="profil" activeClassName="nav-active">
                             <i className="fas fa-user"></i>
                             <span>Profil</span>
                         </NavLink>
                     </li>
-                    <li>
-
+                    <li className="NavLink">
                         <NavLink exact to="contact" activeClassName="nav-active">
                             <i className="fas fa-phone-alt"></i>
                             <span>Contact</span>

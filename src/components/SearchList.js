@@ -12,12 +12,12 @@ export default class SearchList extends Component {
         let { booking } = this.state;
 
         return (
-            <div className="bookingContent ">
+            <div className="bookingContent">
                 <ul className="display ">
 
                 </ul>
 
-                <div className="booking ">
+                <div className="booking">
                     {
                         booking.map(item => {
                             return (
