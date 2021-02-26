@@ -1,22 +1,35 @@
-.navBar {
-    background-color: $color-1;
-}
-.idContent {
-    color: white;
-    font-family: $font-1;
-    font-weight: bold;
-}
-ul {
-    font-family: $font-1;
-    font-weight: bold;
-    font-size: medium;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.booking {
+    text-align: center;
 }
 
-.NavLink {
-    color: white;
-    display: inline-block;
-    padding: 5px 10px;
+.Title {
+    font-weight: bold;
+    font-family: $font-1;
+}
+
+.Title1 {
+    font-weight: bold;
+    font-family: $font-1;
+    background-color: $color-1;
+    color: $white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bookingImg {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
+
+.info {
+    color: $color-3;
+}
+
+.text {
+    font-family: $font-1;
+    font-weight: bold;
+    color: $black;
 }

@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Components 
+BookingAlert ("Alert de vol sélectionné")
+Navigation ("NavBar")
+SearchList ("Liste des réservations")
+Pays ("Liste des réservations")
+SearchDestination ("Recherche de destination d'un pays")
+
+### Pages 
+Home
+Booking
+Profil
+Contact
+NotFound 
